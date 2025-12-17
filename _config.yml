@@ -1,0 +1,96 @@
+# Site settings
+title: Felipe Bermudez - Developer & Tech Enthusiast
+email: bermudef@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal blog and portfolio of Felipe Bermudez, learning from tutorials on Python,
+  web scraping, data analysis, and software development. Explore coding projects,
+  technical insights, and programming best practices.
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://felipebermudez.github.io" # the base hostname & protocol for your site
+
+# Author information
+author:
+  name: Felipe Bermudez
+  email: Bermudef@gmail.com
+
+# Social media usernames (without @)
+twitter_username: bermudef83
+github_username: bermudef
+linkedin_username: felipebermudez
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Minima theme customization
+minima:
+  # Minima date format
+  date_format: "%b %-d, %Y"
+  
+  # Generate social links in footer
+  social_links:
+    twitter: soon
+    github: soon
+    linkedin: soon
+    # rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr: jekyll
+    # instagram: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+# Site navigation
+header_pages:
+  - about.md
+  - contact.md
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Permalink structure
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# SEO settings
+lang: en
+timezone: America/New_York
+
+# Google Analytics (optional)
+# google_analytics: UA-NNNNNNNN-N
+
+# Disqus comments (optional)
+# disqus:
+#   shortname: your-disqus-shortname
+
+# Show excerpts on homepage
+show_excerpts: true
+
+# Custom variables
+custom:
+  copyright_year: 2024
+  site_logo: /assets/images/logo.png
